@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+/*#adh{
+	background:#C78F29;
+	color:white;	
+	
+}*/
+
+
+#left{
+	float:left;
+	display:block;
+	width:71.5%;
+	/*border:1px solid red;*/
+	margin-top:5px;
+	border-radius:5px;
+	background-color:#F8F8F8;
+	
+}
+#tah{
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:collapse;
+	
+	
+}
+#tah tr td input{
+	background:#3fb0ac;
+	color:#173e43;
+	font-size:16px;
+	font-weight:500;
+	height:2em;
+	border-radius:5px;
+	float:left;
+	display:block;
+}
+#tah tr td span{
+	font-size:20px;
+	font-weight:bolder;
+}
+.order_request, #stock-approval-table, #remove-brand-table{
+	border-collapse:collapse;
+}
+
+.order_request th, #stock-approval-table th, #remove-brand-table th{
+	background-color: #173e43;
+	color: #fff;
+	padding: 10px;
+	font-size:18px;
+}
+
+.order_request td, #stock-approval-table td, #remove-brand-table td{
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+.order_request tr:nth-child(even), #stock-approval-table tr:nth-child(even){
+	background-color: #fff;
+}
+
+#remove-brand-table{
+	border: 1px solid #999;
+}
+#remove-brand-table td{
+	text-align: left;
+}
+#remove-brand-table tr:nth-child(even){
+	background-color: #f0f0f0;
+}
+/*
+.order_request tr:nth-child(odd){
+	background-color: #f2f2f2;
+}
+ */
+#option{
+	
+	
+	overflow:visible;
+	
+	padding-top:50px;
+}
+#option #s1{
+	
+	
+	float:left;
+	display:block;
+	padding-left:20px;
+	border-radius:20px;
+	
+	
+}
+#s1 img{
+	
+	padding-top:30px;
+	padding-bottom:50px;
+	
+}
+#option #s2{
+	
+	float:left;
+	background-color:white;
+	display:block;
+	padding-left:20px;
+	margin-left:300px;
+	
+	
+	
+}
+
+
+

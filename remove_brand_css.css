@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#rab{
+	background:#C78F29;
+	color:white;	
+	
+}*/
+textarea{
+		height:6em;
+		width:30em;
+		font:inherit;
+}
+

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#anw{
+	background:#C78F29;
+	color:white;	
+	
+}*/
+tr td{
+	padding:10px;	
+}
+/*
+tr td input{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+tr td input[type="radio"]{
+	box-shadow:none;	
+}
+tr td select{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			
+}
+*/
+#despan{
+			color:#252839;
+}
+#f1{
+	
+}

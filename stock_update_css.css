@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+#sudiv{
+	max-height:600px;
+	overflow-y:auto;
+	float:left;
+	display:block;
+	width:71.5%;
+	margin-top:5px;
+	border-radius:5px;
+	background-color:#FCFCFC;
+	margin-bottom:10px;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	
+}
+#suh3{
+	color:#173e43;
+	margin-left:5px;	
+}
+#date{
+	float:right;
+	color:#173e43;
+}
+#tsu tr td input[type=text]{
+	font-size:13px;	
+	
+}
+

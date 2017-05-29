@@ -1,0 +1,71 @@
+@charset "utf-8";
+/*table styling brand*/
+.brand{
+	margin-left:100px;
+	border-bottom:1px solid #999999;
+}
+
+.brand tr td a img{
+	height:150px;
+	width:200px;
+	background-color:#fff;
+	border-radius:5px;
+}
+
+
+.brand tr td a img:hover{
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*table for trust*/
+.trust{
+	display:block;
+	float:left;
+	color:#666666;
+	margin-left:50px;
+	
+}
+.trust tr td{
+	text-align:left;
+	/*border:1px solid black;*/
+	padding:0;
+	width:auto;
+	
+}
+.end{
+	margin-top:50px;
+	margin-bottom:20px;
+}
+/* table styling main */
+table{
+	padding:10px;
+	border-bottom:1px solid #999999;
+}
+
+table tr{
+	padding:10px;
+}
+
+table tr td{
+	padding:10px;
+}
+
+.main tr td a img{
+	height:300px;
+	width:400px;
+	background-color:#fff;
+	border-radius:5px;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.main tr td a img:hover{
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2), 0 48px 100px 0 rgba(0, 0, 0, 0.19);
+	
+}
+

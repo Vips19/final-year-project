@@ -1,0 +1,83 @@
+.content{
+	display:block;
+	float:left;
+	width:70%;
+	height:auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 7px 0 rgba(0, 0, 0, 0.19);
+	background-color:#FFF;
+	margin:7px 5px 7px 5px;
+	margin-left: 203px;
+	/*border:2px solid yellow;*/
+}
+
+.body{
+	margin-top:125px;
+	width:100%;
+	height:58%;
+	background-color:#eee;
+	/*border:2px solid blue;*/
+}
+
+.payment-header{
+	background-color: #252839;
+	color: white;
+	font-size:24px;
+	text-align: center;
+	width: 70%;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	margin:auto;
+}
+
+.payment-header img{
+	display: block;
+	float: left;
+	border: 1px solid  #252839;
+}
+
+.otp-info{
+	border: 1px solid black;
+	width: 60%;
+	margin: auto;
+}
+
+.otp-info div{
+	width:50%;
+	margin:auto;
+}
+
+.otp-info div table tr td input{
+	/*margin-left: 60px;*/
+	width: 100%;
+	padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	font:inherit;
+}
+
+.otp-info div table tr td input:focus{
+    border: 2px solid #252839;
+	font:inherit;
+	text-align:center;
+}
+
+.submit-otp-button{
+	background-color:#cc5200;
+	color:#fff;
+}
+
+.submit-otp-button:hover{
+	background-color:#ff6600;
+	transition:all 0.3s;
+	cursor:pointer;
+}
+
+.otp-info div table p{
+	font-size:18px;
+}
+

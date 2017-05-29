@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#eee;	
+	
+	
+}
+#hd{
+	display:block;
+	float:left;
+	width:100%;
+	height:100px;
+	padding,margin:0;
+	overflow:visible;	
+	
+}
+
+	h1{
+			position:absolute;
+			top:20px;
+			left:550px;
+			color:#252839;
+	}
+	
+	table tr td{
+		color:#173e43;
+		font-weight:bold;
+		
+	}
+	#t1 tr{
+		padding:20px;
+	}
+	input[type=text], input[type="password"], select,input[type=file],input[type=date],input[type=email] ,input[type=number]  {
+		height:2em;
+		width:14em;
+		outline: none;
+		background:transparent;
+		border:0;
+		border:3px solid #ccc;
+		 -webkit-transition: 0.5s;
+   		 transition: 0.5s;
+		color:#252839;
+		font-weight:bold;
+		text-align:center;
+		font:inherit;
+		/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	}
+	 input[type=text]:focus, input[type="password"]:focus, select:focus,input[type=file]:focus,input[type=date]:focus,input[type=email]:focus ,input[type=number]:focus{
+		border:3px solid #252839;
+		font:inherit;
+		
+	}
+	input[type=submit] {
+		margin-left:80px;
+	text-align:center;
+	cursor:pointer;
+	transition:all 0.3s;
+	height:35px;
+	width:140px;
+	border:none;
+	border:3px solid #252839;
+	background-color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	color:#252839;
+	font:inherit;
+	padding:5px;
+	
+	}
+	input[type=submit]:hover, input[type=button]:hover {
+	background-color:#252839;
+	color:#fff;	
+}
+
+input[type=button]{
+	text-align:center;
+	cursor:pointer;
+	transition:all 0.3s;
+	height:35px;
+	width:90px;
+	border:none;
+	border:3px solid #252839;
+	background-color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	color:#252839;
+	font:inherit;
+	padding:5px;
+}
+
+		
+	table{
+		
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:10px;
+	}
+	#con1{
+		display:block;
+		float:left;
+		margin-left:430px;
+		margin-top:20px;
+		background-color:white;
+		width:30%;
+		/*box-shadow: 0 2px 2px 2px #D3BA7E;*/
+		border-radius:10px;
+		padding:30px;
+		
+	}
+	#tl tr td a:link{
+		color:#3fb0ac;
+		font-weight:bold;
+		text-decoration:none;
+		
+	}
+	
+	#tl tr td a:visited{
+		color:#3fb0ac;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	#tl tr td a:hover{
+		color:red;
+	}
+	
